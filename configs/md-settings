@@ -1,0 +1,22 @@
+# default settings for sessions
+[DEFAULT]
+ConnectionType=acceptor
+SocketAcceptPort=30004
+ReconnectInterval=60
+SenderCompID=ESMMD
+FileStorePath=./logs/
+FileLogPath=./logs/
+ScreenLogEvents=Y
+ScreenLogShowIncoming=Y
+ScreenLogShowOutgoing=Y
+ScreenLogShowHeartBeats=Y
+ValidateUserDefinedFields=N
+
+[SESSION]
+ConnectionType=acceptor
+BeginString=FIX.4.2
+TargetCompID=mdclient
+StartTime=00:00:01
+EndTime=23:59:59
+HeartBtInt=30
+DataDictionary=./FIX42_umatch.xml

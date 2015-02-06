@@ -1,0 +1,12 @@
+#ifndef UMATCH_CONFIG_H
+#define UMATCH_CONFIG_H
+
+#define VERSION_MAJOR @uMatch_VERSION_MAJOR@
+#define VERSION_MINOR @uMatch_VERSION_MINOR@
+#define VERSION_PATCH @uMatch_VERSION_PATCH@
+
+#define REVISION_NUMBER "@uMatch_WC_REVISION@"
+
+#define VERSION_STRING "@uMatch_VERSION_STRING@ (Build @uMatch_WC_REVISION@)"
+
+#endif
